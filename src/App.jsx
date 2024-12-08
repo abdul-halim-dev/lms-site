@@ -2,6 +2,7 @@
 import { RouterProvider } from 'react-router-dom'
 import Route from './pages/Route'
 import './App.css'
+
  
  const App = () => {
    return (

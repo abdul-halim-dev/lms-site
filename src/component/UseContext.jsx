@@ -7,8 +7,9 @@ import { createContext, useState } from "react";
  const ContextProvider = ({children})=>{
 
     const [input, setinput]= useState(true)
+    const [isOpen, setisOpen] = useState(false)
     
-return <UseContext.Provider value={{input, setinput}}> {children} </UseContext.Provider>
+return <UseContext.Provider value={{input, setinput, isOpen, setisOpen}}> {children} </UseContext.Provider>
 
  }
 

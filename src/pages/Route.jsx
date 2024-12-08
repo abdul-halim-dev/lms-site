@@ -16,6 +16,7 @@ import Billing from '../dashbordcomponent/Billing'
 import Profile from '../dashbordcomponent/Profile'
 import Course from '../dashbordcomponent/Course'
 import Setting from '../dashbordcomponent/Setting'
+import Singlepage from './Singlepage'
 
 
 const LoginProtect = ({children})=>{
@@ -109,8 +110,11 @@ const LoginProtect = ({children})=>{
 
         ]
     }
-
-
+,
+{
+path:"/singlepage",
+element:<Singlepage/>
+}
 
 
 
